@@ -26,7 +26,7 @@ export class TodoComponent implements OnInit {
             const todo: ITodo = {
                 id: _id++,
                 content: value,
-                complete: false
+                complete: true
             };
             this.todos.push(todo);
             this.userInput.setValue('');
